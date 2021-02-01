@@ -1,0 +1,58 @@
+.boxx{
+   background-color: #eee;
+   height: 100vh
+}
+
+.boxx .container .row{
+   position: absolute;
+   top: 15%;
+    left: 15%;
+   width: 70%;
+    margin: auto;
+   background-color: #fff;
+   padding: 50px;
+   direction: rtl;
+    border-radius: 5px;
+    border: none;
+  
+    
+}
+.boxx .container .row h2{
+    color: #ff9933;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.boxx .container .row div p{
+     color: #ff9933;
+}
+.boxx .container .row div input,select{
+     
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    background-color: #eee;
+    height: 30px;
+    
+}
+.boxx .container .row button{
+    
+     color: #e6e6e6;
+    background-color: #ff9933;
+    
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+   
+    height: 50px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+ 
+@media (max-width: 768px){ 
+.boxx{
+    background-color: #eee;
+    height: 180vh
+}
+
+     
+}

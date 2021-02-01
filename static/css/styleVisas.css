@@ -1,0 +1,742 @@
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Works on Firefox */
+
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 15px;
+    
+}
+
+*::-webkit-scrollbar-track {
+ 
+    background-color:#ff9933; 
+    
+  
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 10px solid #eee;
+  
+   
+}
+html{
+    
+    font-family: 'Tajawal', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+/*      start header      */
+
+.header{
+
+       height: 100vh;
+        background-color: #eee;
+}
+
+.header .container .registration{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 5vh
+}
+.header .container .registration ul{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    direction: rtl;
+    
+    
+}
+.header .container .registration ul li{
+  
+    margin: 5px 10px 5px 10px;
+    
+    font-size: 1.5rem;
+   list-style-type: none;
+    
+   
+}
+
+.header .container .registration ul li .fas{
+    
+    color:#383738;
+  
+    padding-left: 5px
+}
+
+.header .container .registration ul li a{
+
+    height: 25px;
+    text-decoration: none;
+    color:#383738; 
+
+    padding: 5px;
+    
+}
+.header .container .registration ul li a:hover{
+    background-color:#383738;
+    color: #eee;
+        
+    border-radius: 10px;
+    
+}
+.header .container .registration ul li .active{
+    
+     background-color:#383738;
+    color:#eee;
+    border-radius: 10px;
+}
+
+.header .container .notification{
+    background-color:#212121;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.header .container .notification .box{
+    
+    display: none;
+    
+}
+.header .container .notification .ul-1{
+  
+   width: 70%;
+
+    
+}
+
+.header .container .notification .ul-2{
+    
+    display: none
+}
+
+.header .container .notification .ul-2 li,.box{
+    margin: 20px 0px;
+    
+    
+}
+.header .container .notification .ul-2 .box{
+ 
+    color: dodgerblue;
+   
+ 
+    
+}
+
+.header .container .notification .logo-box{
+    
+    width: 20%;
+    height: 15vh;
+    
+}
+.header .container .notification .logo-box img{
+    
+    width: 100px;
+    height: 100px;
+    
+}
+ .header .container .notification ul .bar{
+   
+     color: #fff;
+     font-size: 30px
+}
+
+
+.header .container .notification ul{
+     direction: rtl;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 25% 1fr;
+   margin-left: auto;
+   margin-right: 5%;
+
+   
+    
+}
+.header .container .notification ul li{
+      list-style-type: none;
+    font-size: 20px;
+    padding-top: 40px;
+    
+    
+}
+.header .container .notification ul li a{
+   padding: 10px;
+      
+  
+
+    color: #ba841b;
+  
+    text-decoration: none
+}
+.header .container .notification ul li .active{
+     background-color:#ba841b;
+    color: #212121;
+    border-radius: 10%
+    
+}
+
+.header .container .notification ul li a:hover{
+    
+        background-color:#ba841b;
+    color: #212121;
+   border-radius: 10%;
+    transition: 0.5s;
+    
+}
+ .header .container .box-para{
+      background-color:#383738;
+     height: 70vh;
+     margin-top: 10px
+}
+
+
+.header .container .box-para .img-illustration img{
+    
+      width: 420px;
+    height: 520px;
+   
+}
+ .header .container .box-para .para{
+    height:200px;
+    border-radius: 10px;
+    border-left: 10px solid #ff9933;
+     margin: auto;
+     width: 30%
+}
+  .header .container .box-para .para h2{   
+    color: #ff9933;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+      
+}
+ .header .container .box-para .para h2,p{
+     
+    text-align: right;
+    padding-left: 30px;
+    font-size: 1.2rem;
+    color:  #eee;
+}
+
+.header .container .row .table{
+    padding: 30px;
+    direction: rtl;
+    margin-top: 20px;
+    margin: auto;
+    height: 10vh;
+    background-color: #fff;
+   
+    
+}
+/* start table */
+.header{
+    height: 100vh
+}
+.header .container {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.header .container .row .table{
+    width: 80%;
+    direction: rtl;
+ 
+    
+   
+    
+}
+
+.header .container .row .table tr th{
+    background-color: #ff9933;
+    color: #eee
+    
+}
+.header .container .row .table tr td{
+    opacity: 0.8
+    
+}
+ /*     end table      */
+/*      end header      */
+
+
+
+
+
+/*      start  footer      */
+
+
+.footer{
+  
+    background-color: #212121;
+    
+}
+
+.footer .container .footer-1 .info{
+   
+    color: #eee;
+}
+.footer .container .footer-1 .info p{
+   color: #bfbfbf
+}
+.footer .container .footer-1 .contact p{
+    color: #bfbfbf;
+    
+}
+
+
+.footer .container .footer-1 .info h2{
+        
+    text-align: end;
+   
+   
+}
+
+.footer .container .footer-1 .contact{
+
+      color: #eee;
+    padding: 10px
+   
+   
+}
+
+.footer .container .footer-1 .contact h2{
+     text-align: end;
+     font-size: 1.5rem;
+     
+}
+
+.footer .container .footer-1 .contact form{
+    
+    display: flex;
+    justify-content: flex-end;
+    width: 100%
+}
+
+.footer .container .footer-1 .contact form input{
+    border:none;
+    width: 60%
+}
+.footer .container .footer-1 .contact form input::placeholder{
+    
+    text-align: right;
+    font-size: 20px
+    
+}
+.footer .container .footer-1 .contact .icon{
+    font-size: 30px;
+    
+    margin-left: 5px;
+    color: #B9841B;
+}
+.footer .container .footer-1 .img{
+  
+}
+.footer .container .footer-1 .img img{
+    width: 40%;
+    margin-left: 30%;
+    height: auto
+}
+
+
+.footer .container .footer-2{
+ 
+    padding: 10px;
+  
+    
+}
+.footer .container .footer-2 p{
+     border-top: 2px solid #eee;
+    width: 50%;
+    margin: auto;
+    text-align: center
+}
+
+
+/*      end footer     */
+
+
+
+
+/*  for tablet */
+
+@media (max-width: 991.98px) { 
+    
+/*   start  header  */
+    
+.header .container .box-para .para{
+    
+ 
+    width: 40%;
+    }
+.header .container .box-para .img-illustration{
+    height: auto;
+   
+    }
+.header .container .box-para .img-illustration img{
+    
+      width: 400px;
+    height: 400px;
+    margin:auto;
+   
+}
+.header .container .registration ul{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    direction: rtl;
+    
+    
+}
+.header .container .registration ul li{
+  
+    margin: 5px 10px 5px 10px;
+    
+    font-size: 1rem;
+   list-style-type: none;
+    
+   
+}
+
+.header .container .registration ul li .fas{
+    
+    color:#383738;
+  
+    padding-left: 5px
+}
+
+.header .container .registration ul li a{
+
+    height: 25px;
+    text-decoration: none;
+    color:#383738;
+    padding: 5px;
+    
+}
+.header .container .registration ul li a:hover{
+    background-color:#383738;
+    color: #eee;
+        
+    border-radius: 10px;
+    
+}
+.header .container .registration ul li .active{
+    
+     background-color:#383738;
+    color:#eee;
+    border-radius: 10px;
+}
+.header .container .notification{
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column
+    }
+
+.header .container .notification ul{
+    
+    position: absolute;
+    top:24%;
+    left: 25%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    height: 73vh;
+   
+}
+.header .container .notification .ul-1{
+    
+    display: none
+}
+
+.header .container .notification .ul-2{
+    background-color:#212121;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    top: 22%;
+    left: 10%;
+    width: 80%;
+    margin: auto;
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    display: none
+    
+    
+    
+}
+.header .container .notification .ul-2 li{
+   width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+ 
+    
+    }
+
+.header .container .notification .box{
+    margin-left: auto;
+    margin-right: 10px;
+    width: 13%;
+    height: 50px;
+   
+    display: flex;
+    cursor: pointer
+}
+.header .container .notification .box .open{
+        background: none;
+       font-size: 3rem;
+    color: #B9841B;
+     border: none;
+    
+    }
+.header .container .notification .box .close{
+     background: none;
+       font-size: 3rem;
+    color: #B9841B;
+     border: none;
+    display: none
+    }
+
+.header .container .notification ul li a{
+  
+   margin: auto;
+        
+    }
+ .header .container .notification .bar{
+     display: flex;
+     width: 20%;
+     margin: auto;
+     background: none;
+     border: none
+     
+    }
+ .header .container .notification .bar .fas{
+     width: 80px;
+     font-size: 3rem;
+     height: 50px;
+     margin-left: auto;
+     color: #ba841b
+    }
+/*   end  header  */
+
+
+
+/* for mobile */
+
+@media (max-width: 768px){ 
+
+html{
+
+        background-color: #eee;
+        padding-left: 15px;
+        padding-right: 15px
+}
+/*      start  header      */
+
+.header{
+
+        height: 100vh;
+        background-color: #eee;
+}
+
+.header .container .registration{
+   width: 100%;
+   margin-top: 10px;
+   height: 5vh
+}
+.header .container .registration ul{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    direction: rtl;
+    
+    
+}
+.header .container .registration ul li{
+  
+    margin: 5px 10px 5px 10px;
+    
+    font-size: 1rem;
+   list-style-type: none;
+    
+   
+}
+
+.header .container .registration ul li .fas{
+    
+    color:#383738;
+  
+    padding-left: 5px
+}
+
+.header .container .registration ul li a{
+
+    height: 25px;
+    text-decoration: none;
+    color:#383738; 
+
+    padding: 5px;
+    
+}
+.header .container .registration ul li a:hover{
+    background-color:#383738;
+    color: #eee;
+        
+    border-radius: 10px;
+    
+}
+.header .container .registration ul li .active{
+    
+      background-color:#383738;
+      color:#eee;
+      border-radius: 10px;
+}
+.header .container .notification{
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column
+    }
+
+.header .container .notification ul{
+    
+    position: absolute;
+    top:24%;
+    left: 25%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    height: 73vh;
+ 
+}
+.header .container .notification .ul-1{
+    
+    display: none
+}
+
+.header .container .notification .ul-2{
+    background-color:#212121;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    top: 24%;
+    left: 10%;
+    width: 80%;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+  
+    display: none
+    
+    
+}
+.header .container .notification .ul-2 li{
+   width: 100%;
+    
+    height: 80px;
+    display: flex;
+    justify-content: center;
+
+    
+    }
+.header .container .notification .box{
+    margin-left: auto;
+    margin-right: 10px;
+    width: 13%;
+    height: 50px;
+     
+    display: flex;
+    cursor: pointer
+}
+.header .container .notification .box .open{
+        background: none;
+       font-size: 3rem;
+       color: #B9841B
+    }
+.header .container .notification .box .close{
+     background: none;
+       font-size: 3rem;
+    color: #B9841B;
+     border: none;
+    }
+
+.header .container .notification ul li a{
+   
+   margin: auto;
+        
+    }
+ .header .container .notification .bar{
+     display: flex;
+     width: 20%;
+     margin: auto;
+     background: none;
+     border: none
+     
+    }
+ .header .container .notification .bar .fas{
+     width: 80px;
+     font-size: 3rem;
+     height: 50px;
+     margin-left: auto;
+     color: #ba841b
+    }
+
+.header .container .box-para .img-illustration img{
+    
+    width: 240px;
+    height: 240px;
+    margin-left: 100px;
+    
+   
+}
+
+.header .container .box-para .para{
+height: 200px;
+    
+    width: 55%;
+}
+.header .container .box-para .para h2{
+    font-size: 20px;
+color: #ba841b
+}
+.header .container .box-para .para p,h2{
+    
+    margin-top: 0;
+    font-size: 1rem
+    }
+    /*      end header      */
+
+    
+}
